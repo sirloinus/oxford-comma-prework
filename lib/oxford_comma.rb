@@ -11,7 +11,8 @@ def oxford_comma(array)
   end
 end
 
-# puts "#{sentence[0]}, #{sentence[1]} and #{sentence[2]}"
+# .reverse.sub(',', '& ').reverse
+
 
 
 # it "adds 'and' between elements when given a 2-element array" do
