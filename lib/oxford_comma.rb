@@ -5,7 +5,7 @@ def oxford_comma(array)
     array.join(" and ")
   elsif array.length == 3 
     sentence = array.join(", ")
-    sentence.reverse.sub(',', '& ').reverse
+    sentence.reverse.sub(',', ' and ').reverse
   else 
     array.join(", ")
   end
