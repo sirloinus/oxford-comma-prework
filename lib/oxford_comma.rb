@@ -7,7 +7,8 @@ def oxford_comma(array)
     sentence = array.join(", ")
     sentence.reverse.sub(',', 'dna ,').reverse
   else 
-    array.join(", ")
+    sentence = array.join(", ")
+    sentence.reverse.sub(',', 'dna ,').reverse
   end
 end
 
